@@ -16,10 +16,10 @@ class CreateEventTable extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nom_event');
-            $table->string('description_event');
+            $table->text('description_event');
             $table->integer('exclu_club');
             $table->integer('buget_total');
-            $table->string('image_event_presentation');
+            $table->string('image_event_representation');
             $table->integer('budget_reel');
             $table->integer('recettes');
         });

@@ -4,7 +4,7 @@
 
 	<H1>Liste des évènements</H1>
 
-	@foreach ($event as $event)
+	@foreach ($events as $event)
 
 		<div>
 			{{ $event->nom_event}}
@@ -12,11 +12,13 @@
 		<div>
 			{{ $event->description_event}}
 		</div>
+		<?php echo'<img src="'?>{{ $event->image_event_presentation}}<?php echo'" style="width: 200px; height: 200px;">'?>
 		<div>
-			{{ $event->exclu_club}}
-		</div>
-		<div>
-			{{ $event->image_event_representation}}
+			@if($event->exclu_club)
+				<img src="image\case-check.png">
+			@else
+				<img src="image\case-blank.jpg">
+			@endif
 		</div>
 	@endforeach
 @stop

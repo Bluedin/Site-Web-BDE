@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('events', 'eventsController@index');
+Route::get('events', 'EventController@index');
 
-Route::get('events/1', 'eventsController@show');
+Route::get('events/{event}', 'EventController@show');
+
+Route::get('club', function(){
+    	return view('club.index');
+    });
+
