@@ -47,6 +47,7 @@
 </head>
 <body>
 
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -57,55 +58,20 @@
       </button>
       <a class="navbar-brand" href="acceuil.php">BDE Exia Cesi Toulouse</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="event.php">Events</a></li>
-        <li><a href="#">Clubs</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+    
   </div>
 </nav>
   
-<!-- <div class="container">
+<div class="container">
       <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <div class="panel panel-login"> -->
+        <div class="panel panel-login">
           
 
           <div class="panel-body">
             <div class="row">
-              <div class="col-lg-4">
-
-                <div class="panel panel-danger">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Apéro puis entrée à l'Insane</h3>
-                  </div>
-                    <div class="panel-body">06/05/2017 - 11h30 - Parc des expos
-                    <button type="button" class="btn btn-default">Voir</button>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="panel panel-danger">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Vomi sur le parvis du stadium</h3>
-                  </div>
-                    <div class="panel-body">06/05/2017 - 20h05 - Dèrrière Alban Lafont
-                    <button type="button" class="btn btn-default">Voir</button></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="panel panel-danger">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Début de l'apocalypse</h3>
-                  </div>
-                    <div class="panel-body">06/05/2017 - 22h20 - Pluton
-                    <button type="button" class="btn btn-default">Voir</button></div>
-                </div>
-              </div>
-                <!-- <form id="login-form" action="connexion.php" method="post" role="form" style="display: block;">
+              <div class="col-lg-12">
+                <form id="login-form" action="signin.php" method="post" role="form" style="display: block;">
                   <div class="form-group">
                     <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                   </div>
@@ -127,7 +93,7 @@
                     <div class="row">
                       <div class="col-lg-12">
                         <div class="text-center">
-                          <a href="passlost.php" tabindex="5" class="forgot-password">Forgot Password?</a>  
+                          <a href="passlost.php" tabindex="5" class="forgot-password">Forgot Password?</a> <!-- lien -->
                         </div>
                       </div>
                     </div>
@@ -153,14 +119,13 @@
                       </div>
                     </div>
                   </div>
-                </form> 
+                </form>
                         <div class="row">
                           
                           <div class="col-xs-12">
                             <a href="#" id="register-form-link" text-align="center">Register</a>
                           </div>
                         </div>
-                        -->
               </div>
             </div>
           </div>
