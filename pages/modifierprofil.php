@@ -47,7 +47,7 @@
 </head>
 <body>
 
-<?php 
+<!-- <?php 
 
 $mailprofile = $_COOKIE["paul"];
 
@@ -80,7 +80,7 @@ try {
 
   var_dump($rmail);
 
-?>
+?> -->
 
 
         <nav class="navbar navbar-inverse">
@@ -113,63 +113,50 @@ try {
                     <div class="row">
 
                       <div class="col-lg-12">
-                      <h1>Votre profil :</h1>
+                      <h1>Modifier votre profil :</h1>
 
-                        <!-- <TABLE BORDER="0">
-                          <CAPTION> Informations générales </CAPTION>
-                           <tr>
-                             <th> Nom : </th>
-                             <th> Prénom : </th>
-                             <th> Adresse e-mail : </th>
-                             <th> Mot de passe : </th>
-                             <th> Promo : </th>
-                             <th> Phrase choc : </th>
-                           </tr> -->
+                        
 
                       </div>
 
-                      <div class="col-lg-4">
-
-                        <p>Nom :
-                        <?php
-                          echo $rnom['nom'];
-                         ?></p>
-
-                        <p>Prenom :
-                        <?php
-                          echo $rprenom['prenom'];
-                         ?></p>
-
-                        <p>Adresse mail :
-                        <?php
-                          echo $rmail['mail'];
-                         ?></p>
-
-                      </div>
-                      <div class="col-lg-4">
-
-                        <p>Mot de passe :
-                        <?php
-                          echo $rmotdepasse['password'];
-                         ?></p>
-
-                        <p>Promo :
-                        <?php
-                          echo $rpromo['promo'];
-                         ?></p>
-
-                        <p>Phrase choc :
-                        <?php
-                          echo $rphrase['phrasechoc'];
-                         ?></p>
-
-                      </div>
-                      <div class="col-lg-4"></div>
-                      
-                      <div class="col-lg-12">
-                        <br/>
-                        <a href="modifierprofil.php" class="btn btn-info" role="button">Modifier le profil</a>
-                      </div>
+                      <form id="" action="modif.php" method="post">
+                  
+                        <div class="form-group col-lg-6">
+                          <label>Nom</label>
+                          <input type="" name="nom" class="form-control" id="" value="">
+                        </div>
+                        
+                        <div class="form-group col-lg-6">
+                          <label>Prénom</label>
+                          <input type="" name="prenom" class="form-control" id="" value="">
+                        </div>
+                        <div class="form-group col-lg-6">
+                          <label>E-mail</label>
+                          <input type="" name="email" class="form-control" id="" value="">
+                        </div>
+                        
+                        <div class="form-group col-lg-6">
+                          <label>Mot de passe</label>
+                          <input type="password" name="motdepasse" class="form-control" id="" value="">
+                        </div>
+                         <div class="form-group col-lg-6">
+                          <label>Promo</label>
+                          <select name="promo" class="form-control">
+                                  <option>A1</option>
+                                  <option>A2</option>
+                                  <option>A3</option>
+                                  <option>A4</option>
+                                  <option>A5</option>
+                              </select>
+                        </div>      
+                        <div class="form-group col-lg-6">
+                          <label>Phrase choc :</label>
+                          <input type="" name="phrase" class="form-control" id="" value="">
+                        </div>
+                        <div class="col-lg-12">
+                      <button type="submit" class="btn btn-primary">Enregistrer</button>
+                    </div>
+                      </form>
                       
                         
                   </div>
