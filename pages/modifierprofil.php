@@ -47,7 +47,8 @@
 </head>
 <body>
 
-<!-- <?php 
+<!--
+<?php 
 
 $mailprofile = $_COOKIE["paul"];
 
@@ -80,7 +81,9 @@ try {
 
   var_dump($rmail);
 
-?> -->
+?> 
+
+-->
 
 
         <nav class="navbar navbar-inverse">

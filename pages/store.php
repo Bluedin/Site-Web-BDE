@@ -78,10 +78,8 @@
     <div class="panel-body">
       <div class="row">
 
-          <div class="col-lg-2">
-            <div class="thumbnail">
-             <img src="sweatexia.jpg" alt="">
-                <div class="caption">
+          <?php require 'infoboutique.php' 
+          ?>
 
                <!--  <?php
 
@@ -109,56 +107,30 @@
                 ?> -->
 
 
-                  <h3>Sweat Exia</h3>
-                  <p>Prix : <strong>35€</strong></p>
-                  <p><a href="prod1.php" class="btn btn-primary">Acheter</a> </p>
-                </div>
-            </div>
-          </div>
-           
-
-          <div class="col-lg-2">
-            <div class="thumbnail">
-              <img src="tshirtexia.jpg" alt="">
-                <div class="caption">
-                  <h3>Polo Exia</h3>
-                  <p>Prix : <strong>25€</strong></p>
-                  <p><a href="prod2.php" class="btn btn-primary">Acheter</a> </p>
-                </div>
-              </div>
-            </div>
                 
-            <div class="col-lg-2"> 
-              <div class="thumbnail">
-                <img src="darkcookie.jpg" alt="">
-                <div class="caption">
-                  <h3>Dark Cookies</h3>
-                  <p>Prix : <strong>N.C</strong></p>
-                  <p><a href="prod3.php" class="btn btn-primary">Acheter</a> </p>
-                </div>
-              </div>
-            </div>
+                
+             
 
             
-        <form id="" action="addprod.php" method="post">
-                  
-          <div class="form-group col-lg-12">
-            <label>Nom du produit :</label>
-            <input type="" name="nom" class="form-control" id="" value="">
-          </div>
-          
-          <div class="form-group col-lg-12">
-            <label>Prix :</label>
-            <input type="" name="prix" class="form-control" id="" value="">
-          </div>
-          <div class="form-group col-lg-12">
-            <label>Nom de l'image (+extension) :</label>
-            <input type="" name="url" class="form-control" id="" value="">
-          </div>
-          <div class="col-lg-12">
-              <button type="submit" class="btn btn-danger">Ajouter un produit à la boutique</button>
-            </div>
-        </form>  
+              <!-- <form id="" action="addprod.php" method="post">
+                        
+                <div class="form-group col-lg-12">
+                  <label>Nom du produit :</label>
+                  <input type="" name="nom" class="form-control" id="" value="">
+                </div>
+                
+                <div class="form-group col-lg-12">
+                  <label>Prix :</label>
+                  <input type="" name="prix" class="form-control" id="" value="">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label>Nom de l'image (+extension) :</label>
+                  <input type="" name="url" class="form-control" id="" value="">
+                </div>
+                <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger">Ajouter un produit à la boutique</button>
+                  </div>
+              </form>   -->
         </div>
       </div>
                     
